@@ -6,7 +6,6 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import ru.otus.spring.domain.Check;
 import ru.otus.spring.service.StudentCheckService;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 @Configuration
