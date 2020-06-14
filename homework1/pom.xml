@@ -15,5 +15,8 @@
         <module>spring-01-exercise-6</module>
         <module>spring-01-solution</module>
         <module>spring-student-check</module>
+		<module>spring-02-exercise</module>
+		<module>spring-02-solution</module>		
+		<module>spring-student-check-2</module>
     </modules>
 </project>
