@@ -7,7 +7,9 @@ import java.util.List;
 
 public interface AuthorService {
 
-    void saveAuthor(Author author);
-    List<Author> getAuthors();
+    void saveAuthor(String bookId, Author author);
+    void updateAuthor(String id, Author author);
+    List<Author> getAuthorsByBookId(String bookId);
     void deleteById(String id) throws DocumentNotFoundException;
+    void deleteAll();
 }

@@ -1,6 +1,5 @@
 package ru.otus.spring.service;
 
-import lombok.val;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ru.otus.spring.domain.Author;
@@ -16,27 +15,33 @@ public class AuthorServiceImpl implements AuthorService {
     private final AuthorRepository authorRepository;
 
     @Override
-    public void saveAuthor(Author author) {
+    public void saveAuthor(String bookId, Author author) {
 
-        authorRepository.save(author);
+        authorRepository.add(bookId, author);
     }
 
     @Override
-    public List<Author> getAuthors() {
+    public List<Author> getAuthorsByBookId(String bookId) {
 
         String resAuthor = "";
-        for(Author item : authorRepository.findAll())
+        for(Author item : authorRepository.findAuthorsByBookId(bookId))
             resAuthor += item.getId() + " " + item.getName() + " \n ";
 
-        return authorRepository.findAll();
+        return authorRepository.findAuthorsByBookId(bookId);
+    }
+
+    @Override
+    public void updateAuthor(String id, Author author) {
+        authorRepository.update(id, author);
     }
 
     @Override
     public void deleteById(String id) throws DocumentNotFoundException {
+        authorRepository.deleteByAuthorId(id);
+    }
 
-        Author author = authorRepository.findById(id)
-                .orElseThrow(() -> new DocumentNotFoundException(id, Author.class.getName()));
-
-        authorRepository.deleteById(id);
-    };
+    @Override
+    public void deleteAll() {
+        authorRepository.deleteAll();
+    }
 }

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhostMongo">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.19">
+    <root id="1">
+      <ServerVersion>4.0.20</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="athenaeumLibrary"/>
+    <schema id="4" parent="1" name="config"/>
+    <schema id="5" parent="1" name="library"/>
+    <schema id="6" parent="1" name="local"/>
+    <table id="7" parent="3" name="author"/>
+    <table id="8" parent="3" name="book"/>
+    <table id="9" parent="3" name="books"/>
+    <table id="10" parent="3" name="comment"/>
+    <table id="11" parent="3" name="genre"/>
+    <table id="12" parent="3" name="mongockChangeLog"/>
+    <column id="13" parent="7" name="_id">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="14" parent="7" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="15" parent="7" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="16" parent="8" name="_id">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="17" parent="8" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="18" parent="8" name="authors">
+      <DataType>list(0)|4999545s</DataType>
+    </column>
+    <column id="19" parent="8" name="comments">
+      <DataType>list(0)|4999545s</DataType>
+    </column>
+    <column id="20" parent="8" name="genres">
+      <DataType>list(0)|4999545s</DataType>
+    </column>
+    <column id="21" parent="8" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="22" parent="8" name="_id1">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="23" parent="8" name="authors._id">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="24" parent="8" name="comments._id">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="25" parent="8" name="genres._id">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="26" parent="8" name="authors.name">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="27" parent="8" name="comments.name">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="28" parent="8" name="genres.name">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="29" parent="9" name="_id">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="30" parent="9" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="31" parent="10" name="_id">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="32" parent="10" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="33" parent="10" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="34" parent="11" name="_id">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="35" parent="11" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="36" parent="11" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="37" parent="12" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="38" parent="12" name="author">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="39" parent="12" name="changeId">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="40" parent="12" name="executionId">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="41" parent="12" name="metadata">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="42" parent="12" name="state">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="43" parent="12" name="changeLogClass">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="44" parent="12" name="executionMillis">
+      <Position>1</Position>
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="45" parent="12" name="timestamp">
+      <Position>1</Position>
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="46" parent="12" name="changeSetMethod">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>

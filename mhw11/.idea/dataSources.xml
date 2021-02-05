@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhostMongo" uuid="0d89b691-796b-45f1-b1a1-77277fd13fee">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>MongoMongoMongoAaaaaaa</remarks>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017</jdbc-url>
+    </data-source>
+  </component>
+</project>

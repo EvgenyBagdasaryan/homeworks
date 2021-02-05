@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5b85c92-33d3-47b5-85c9-def8047adb67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/dto/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/dto/CommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/CommentCustomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/CommentCustomRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/rest/BookControllerRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/rest/CommentControllerRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list_of_comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/selected_author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/selected_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/selected_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/spring/controller/BookControllerRestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/spring/controller/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/spring/controller/CommentControllerRestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/spring/repository/CommentRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/spring/service/CommentServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../someThing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../someThing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../someThing/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../someThing/src/main/java/SportsCamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/changelogs/InitMongoDBDataChangeLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/changelogs/InitMongoDBDataChangeLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/domain/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/dto/AuthorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/dto/BookDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/exceptions/DocumentNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/exceptions/DocumentNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorCustomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorCustomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorCustomRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookCustomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookCustomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookCustomRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/repositories/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/GenreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/service/GenreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/shell/ApplicationCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/main/java/ru/otus/spring/shell/ApplicationCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/LibraryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/AuthorRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/AuthorRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/BookRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/CommentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/GenreRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/TestRepositoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/repository/TestRepositoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/AuthorServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/AuthorServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/BookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/CommentServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/GenreServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/LibraryIOServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/service/MessageBundleServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/java/ru/otus/spring/transformer/BookTransformerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../mhw8/jdbc-athenaeum/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/domain/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/exceptions/DocumentNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/exceptions/DocumentNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/AuthorCustomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/AuthorCustomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/AuthorCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/AuthorCustomRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookCustomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookCustomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookCustomRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/repositories/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/spring/service/GenreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/spring/shell/ApplicationCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/spring/repository/AuthorRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/spring/repository/BookRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/spring/repository/TestRepositoryConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/spring/service/AuthorServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/spring/service/BookServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kY1AsYQ8Nmb56hBH06NwlxJy7N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../anyProjects/spring-18/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.otus.spring.controller" />
+      <recent name="ru.otus.spring.service" />
+      <recent name="ru.otus.spring.repository" />
+      <recent name="ru.otus.spring.dto" />
+      <recent name="ru.otus.spring.rest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\forWork\projects\homeworks\mhw9\src\test\java\ru\otus\spring" />
+      <recent name="C:\forWork\projects\homeworks\mhw9\src\main\resources\templates" />
+      <recent name="C:\forWork\homeworks\mhw9\src\main\resources\templates" />
+      <recent name="C:\forWork\homeworks\mhw9\src\main\java\ru\otus\spring" />
+      <recent name="C:\forWork\homeworks\mhw9\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookControllerTest.contextLoads">
+    <configuration name="BookControllerTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="athenaeum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.spring.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="athenaeum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.spring.service.BookServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentControllerRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="athenaeum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.spring.controller.CommentControllerRestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentControllerRestTestMvc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="athenaeum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.spring.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.spring.controller.CommentControllerRestTestMvc" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="athenaeum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.spring.service.CommentServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AthenaeumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="athenaeum" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.otus.spring.AthenaeumApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookControllerTest.contextLoads" />
+        <item itemvalue="JUnit.CommentControllerRestTest" />
+        <item itemvalue="JUnit.CommentControllerRestTestMvc" />
+        <item itemvalue="JUnit.CommentServiceImplTest" />
+        <item itemvalue="JUnit.BookServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ebagdasaryan\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5b85c92-33d3-47b5-85c9-def8047adb67" name="Default Changelist" comment="" />
+      <created>1605862571857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605862571857</updated>
+      <workItem from="1605862573036" duration="1345000" />
+      <workItem from="1605863935482" duration="2426000" />
+      <workItem from="1605959861622" duration="7107000" />
+      <workItem from="1606040984454" duration="10778000" />
+      <workItem from="1606117512527" duration="2958000" />
+      <workItem from="1606120941472" duration="16158000" />
+      <workItem from="1606201216587" duration="1254000" />
+      <workItem from="1606507666064" duration="176000" />
+      <workItem from="1606578456055" duration="693000" />
+      <workItem from="1606639159215" duration="11976000" />
+      <workItem from="1606701423620" duration="3708000" />
+      <workItem from="1606706660622" duration="7741000" />
+      <workItem from="1606724083583" duration="10983000" />
+      <workItem from="1606807651347" duration="599000" />
+      <workItem from="1606873737891" duration="1569000" />
+      <workItem from="1606898810915" duration="599000" />
+      <workItem from="1606980394263" duration="602000" />
+      <workItem from="1607060562400" duration="9903000" />
+      <workItem from="1607263715842" duration="15019000" />
+      <workItem from="1607318451748" duration="1366000" />
+      <workItem from="1607442402489" duration="14741000" />
+      <workItem from="1607491984770" duration="17558000" />
+      <workItem from="1607578898902" duration="6780000" />
+      <workItem from="1607665437553" duration="598000" />
+      <workItem from="1607847482386" duration="598000" />
+      <workItem from="1607937021998" duration="599000" />
+      <workItem from="1608102992886" duration="598000" />
+      <workItem from="1608619937225" duration="1197000" />
+      <workItem from="1608706385729" duration="597000" />
+      <workItem from="1608836038807" duration="598000" />
+      <workItem from="1608876819494" duration="599000" />
+      <workItem from="1609001547787" duration="916000" />
+      <workItem from="1609060429924" duration="599000" />
+      <workItem from="1609138033999" duration="598000" />
+      <workItem from="1609194642719" duration="324000" />
+      <workItem from="1609227105154" duration="2411000" />
+      <workItem from="1609275407204" duration="3503000" />
+      <workItem from="1609316055282" duration="6037000" />
+      <workItem from="1609404211777" duration="6047000" />
+      <workItem from="1609465924590" duration="389000" />
+      <workItem from="1609504313924" duration="9229000" />
+      <workItem from="1609650234794" duration="2367000" />
+      <workItem from="1609664186467" duration="3423000" />
+      <workItem from="1609681920883" duration="6635000" />
+      <workItem from="1609790222496" duration="1479000" />
+      <workItem from="1609827846149" duration="5859000" />
+      <workItem from="1609857083121" duration="598000" />
+      <workItem from="1609878185744" duration="2133000" />
+      <workItem from="1609941499965" duration="1114000" />
+      <workItem from="1610016343675" duration="598000" />
+      <workItem from="1610034342088" duration="598000" />
+      <workItem from="1610071435332" duration="670000" />
+      <workItem from="1610104177629" duration="971000" />
+      <workItem from="1610119785261" duration="5213000" />
+      <workItem from="1610222791259" duration="598000" />
+      <workItem from="1610289063116" duration="1332000" />
+      <workItem from="1610347155768" duration="1817000" />
+      <workItem from="1610366832100" duration="3835000" />
+      <workItem from="1610442301579" duration="595000" />
+      <workItem from="1610486832249" duration="7326000" />
+      <workItem from="1610524276400" duration="599000" />
+      <workItem from="1610603365286" duration="700000" />
+      <workItem from="1610692693104" duration="11795000" />
+      <workItem from="1610885566284" duration="4573000" />
+      <workItem from="1610906065395" duration="2956000" />
+      <workItem from="1611036498055" duration="15867000" />
+      <workItem from="1611122903465" duration="597000" />
+      <workItem from="1611472993329" duration="1851000" />
+      <workItem from="1611476404590" duration="769000" />
+      <workItem from="1611479858508" duration="6858000" />
+      <workItem from="1611544864604" duration="5237000" />
+      <workItem from="1611557212725" duration="871000" />
+      <workItem from="1611631880002" duration="5010000" />
+      <workItem from="1611724928891" duration="1946000" />
+      <workItem from="1611803990357" duration="1244000" />
+      <workItem from="1611874365776" duration="306000" />
+      <workItem from="1612118777534" duration="1279000" />
+      <workItem from="1612149367582" duration="597000" />
+      <workItem from="1612170082859" duration="2647000" />
+      <workItem from="1612255700665" duration="614000" />
+      <workItem from="1612295707671" duration="597000" />
+      <workItem from="1612384558721" duration="297000" />
+      <workItem from="1612408502407" duration="599000" />
+      <workItem from="1612492442762" duration="598000" />
+      <workItem from="1612495565475" duration="1447000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1605863731020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605863731020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607264124965">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1607264124965" />
+    <state x="734" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1606743208795">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="734" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1606743208795" />
+    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606708154566">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1606708154566" />
+    <state x="554" y="107" key="CommitChangelistDialog2" timestamp="1605863729946">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="554" y="107" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1605863729946" />
+    <state width="613" height="466" key="DebuggerActiveHint" timestamp="1611074242885">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="613" height="466" key="DebuggerActiveHint/0.0.1849.1080@0.0.1849.1080" timestamp="1611074242885" />
+    <state width="615" height="466" key="DebuggerActiveHint/0.0.1858.1080@0.0.1858.1080" timestamp="1607067924349" />
+    <state x="706" y="294" key="FileChooserDialogImpl" timestamp="1612496810360">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state x="706" y="294" key="FileChooserDialogImpl/0.0.1849.1080@0.0.1849.1080" timestamp="1612496810360" />
+    <state x="709" y="294" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1607458237989" />
+    <state width="1806" height="162" key="GridCell.Tab.0.bottom" timestamp="1611725677399">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.0.bottom/0.0.1849.1080@0.0.1849.1080" timestamp="1611725677399" />
+    <state width="1811" height="162" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338326" />
+    <state width="1815" height="252" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072954" />
+    <state width="1806" height="162" key="GridCell.Tab.0.center" timestamp="1611725677399">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.0.center/0.0.1849.1080@0.0.1849.1080" timestamp="1611725677399" />
+    <state width="1811" height="162" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338326" />
+    <state width="1815" height="252" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072954" />
+    <state width="1806" height="162" key="GridCell.Tab.0.left" timestamp="1611725677399">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.0.left/0.0.1849.1080@0.0.1849.1080" timestamp="1611725677399" />
+    <state width="1811" height="162" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338326" />
+    <state width="1815" height="252" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072953" />
+    <state width="1806" height="162" key="GridCell.Tab.0.right" timestamp="1611725677399">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.0.right/0.0.1849.1080@0.0.1849.1080" timestamp="1611725677399" />
+    <state width="1811" height="162" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338326" />
+    <state width="1815" height="252" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072954" />
+    <state width="1806" height="162" key="GridCell.Tab.1.bottom" timestamp="1611725546166">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.1.bottom/0.0.1849.1080@0.0.1849.1080" timestamp="1611725546166" />
+    <state width="1811" height="162" key="GridCell.Tab.1.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1609703958842" />
+    <state width="1815" height="252" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1609523111042" />
+    <state width="1806" height="162" key="GridCell.Tab.1.center" timestamp="1611725546166">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.1.center/0.0.1849.1080@0.0.1849.1080" timestamp="1611725546166" />
+    <state width="1811" height="162" key="GridCell.Tab.1.center/0.0.1854.1080@0.0.1854.1080" timestamp="1609703958842" />
+    <state width="1815" height="252" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1609523111042" />
+    <state width="1806" height="162" key="GridCell.Tab.1.left" timestamp="1611725546166">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.1.left/0.0.1849.1080@0.0.1849.1080" timestamp="1611725546166" />
+    <state width="1811" height="162" key="GridCell.Tab.1.left/0.0.1854.1080@0.0.1854.1080" timestamp="1609703958842" />
+    <state width="1815" height="252" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1609523111042" />
+    <state width="1806" height="162" key="GridCell.Tab.1.right" timestamp="1611725546166">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="162" key="GridCell.Tab.1.right/0.0.1849.1080@0.0.1849.1080" timestamp="1611725546166" />
+    <state width="1811" height="162" key="GridCell.Tab.1.right/0.0.1854.1080@0.0.1854.1080" timestamp="1609703958842" />
+    <state width="1815" height="252" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1609523111042" />
+    <state width="1806" height="116" key="GridCell.Tab.2.bottom" timestamp="1611073646598">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="116" key="GridCell.Tab.2.bottom/0.0.1849.1080@0.0.1849.1080" timestamp="1611073646598" />
+    <state width="1811" height="162" key="GridCell.Tab.2.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338146" />
+    <state width="1815" height="252" key="GridCell.Tab.2.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072781" />
+    <state width="1806" height="116" key="GridCell.Tab.2.center" timestamp="1611073646598">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="116" key="GridCell.Tab.2.center/0.0.1849.1080@0.0.1849.1080" timestamp="1611073646598" />
+    <state width="1811" height="162" key="GridCell.Tab.2.center/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338146" />
+    <state width="1815" height="252" key="GridCell.Tab.2.center/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072781" />
+    <state width="1806" height="116" key="GridCell.Tab.2.left" timestamp="1611073646598">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="116" key="GridCell.Tab.2.left/0.0.1849.1080@0.0.1849.1080" timestamp="1611073646598" />
+    <state width="1811" height="162" key="GridCell.Tab.2.left/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338146" />
+    <state width="1815" height="252" key="GridCell.Tab.2.left/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072781" />
+    <state width="1806" height="116" key="GridCell.Tab.2.right" timestamp="1611073646598">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state width="1806" height="116" key="GridCell.Tab.2.right/0.0.1849.1080@0.0.1849.1080" timestamp="1611073646598" />
+    <state width="1811" height="162" key="GridCell.Tab.2.right/0.0.1854.1080@0.0.1854.1080" timestamp="1609703338146" />
+    <state width="1815" height="252" key="GridCell.Tab.2.right/0.0.1858.1080@0.0.1858.1080" timestamp="1609523072781" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1607264132920">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1858.1080@0.0.1858.1080" timestamp="1607264132920" />
+    <state x="454" y="197" key="Maven.ArtifactSearchDialog" timestamp="1611725291415">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state x="454" y="197" key="Maven.ArtifactSearchDialog/0.0.1849.1080@0.0.1849.1080" timestamp="1611725291415" />
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605863737896">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1605863737896" />
+    <state x="587" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611486590820">
+      <screen x="0" y="0" width="1849" height="1080" />
+    </state>
+    <state x="587" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1849.1080@0.0.1849.1080" timestamp="1611486590820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/spring/service/CommentServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="verify(commentRepository).save(bookId, comment)" language="JAVA" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="authorService.findByAuthorId(id)" language="JAVA" />
+        <watch expression="commentService.getCommentsByBookId(bookId).stream().map(CommentDto::toDto).collect(Collectors.toList())" language="JAVA" />
+        <watch expression="commentService.getCommentsByBookId(bookId).stream().map(CommentDto::toDto).collect(Collectors.toList());" language="JAVA" />
+        <watch expression="bookService.getBooks()" language="JAVA" />
+        <watch expression="comment.getName()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/athenaeum$AthenaeumApplication.ic" NAME="AthenaeumApplication Coverage Results" MODIFIED="1606658481843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

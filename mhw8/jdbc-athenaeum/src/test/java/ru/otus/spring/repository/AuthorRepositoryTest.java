@@ -92,41 +92,24 @@ class AuthorRepositoryTest {
                 .contains(author2.getName());
     }
 
-    @DisplayName("Получить всех авторов")
-    @Test
-    void findAllTest() {
-
-        Author authors1 = new Author("1", "testAuthor1");
-        Author authors2 = new Author("2", "testAuthor2");
-
-        mongoTemplate.insert(authors1);
-        mongoTemplate.insert(authors2);
-
-        List<Author> allAuthors = authorRepository.findAll();
-
-        assertThat(allAuthors).contains(authors1);
-        assertThat(allAuthors).contains(authors2);
-    }
-
     @DisplayName("Получить всех авторов по книге")
     @Test
     void findByBookIdTest() {
         List<Author> authors = List.of(new Author(UUID.randomUUID().toString(), "testAuthor1"));
 
-        Book book =  mongoTemplate.insert(
-                new Book(
-                        null,
+        Book book = new Book(
+                        UUID.randomUUID().toString(),
                         "testBook" ,
                         null,
                         authors,
-                        null));
+                        null);
 
-        //mongoTemplate.insert(book);
+        mongoTemplate.insert(book);
 
-        //List<Author> foundAuthors = authorRepository.findAuthorsByBookId(book.getId());
+        List<Author> foundAuthors = authorRepository.findAuthorsByBookId(book.getId());
 
-        /*assertThat(foundAuthors)
+        assertThat(foundAuthors)
                 .extracting(Author::getName)
-                .containsExactlyElementsOf(foundAuthors.stream().map(Author::getName).collect(Collectors.toList()));*/
+                .containsExactlyElementsOf(authors.stream().map(Author::getName).collect(Collectors.toList()));
     }
 }
